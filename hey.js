@@ -674,7 +674,7 @@ window.onkeydown = function (event) {
 function start() {
     interval = window.setInterval(() => {
         window.requestAnimationFrame(drop);
-        drop();
+        //drop();
     }, 400);
 }
 
